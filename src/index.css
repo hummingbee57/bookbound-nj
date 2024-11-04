@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-nav {
-    
+@layer base {
+    nav {
+        @apply w-full;
+        @apply h-full;
+    }
+    h1 {
+        @apply text-2xl mx-2;
+    }
 }
